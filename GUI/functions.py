@@ -1,4 +1,4 @@
-FILEPATH = "totos.txt"
+FILEPATH = "../totos.txt"
 def get_todos(filepath = FILEPATH):
     """" Reads a text file and returns the list of the to-do items."""
     with open(filepath, 'r') as file_local:
